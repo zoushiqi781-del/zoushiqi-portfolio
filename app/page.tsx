@@ -545,7 +545,7 @@ function ContactPanel({ onBack }: { onBack: () => void }) {
                 onClick={(e) => e.stopPropagation()}
               >
                 <div className="relative w-64 h-64 mx-auto mb-4">
-                  <Image src="/微信二维码.jpg" alt="微信二维码" fill className="object-contain rounded-xl" />
+                  <Image src="/wechat-qr.jpg" alt="微信二维码" fill className="object-contain rounded-xl" />
                 </div>
                 <p className="text-center font-cute text-felt-brown">扫码加我微信</p>
               </motion.div>
